@@ -6,6 +6,13 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
   modules: [
-    '@nuxtjs/tailwindcss'
-  ]
+    '@nuxtjs/tailwindcss',
+    '@vesp/nuxt-fontawesome',
+  ],
+  fontawesome: {
+    icons: {
+      solid: ['cog'],
+      brands: ['twitter', 'instagram'],
+    }
+  }
 })
