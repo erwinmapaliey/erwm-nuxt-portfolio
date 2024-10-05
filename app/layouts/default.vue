@@ -1,15 +1,16 @@
 <template>
-  <div class="container mx-auto flex justify-between gap-4 max-w-7xl">
+  <div class="container mx-auto min-h-screen max-w-6xl flex">
     <header class="sticky top-0 flex max-h-screen w-1/2 flex-col justify-between py-24">
       <div>
-        <NuxtLink to="/" class="text-4xl sm:text-5xl font-bold">Erwin Mapaliey</NuxtLink>
-        <h3 class="text-xl mt-4">Senior Software Engineer</h3>
+        <NuxtLink to="/" class="text-5xl font-bold">Erwin Mapaliey</NuxtLink>
+        <h2 class="text-xl font-base mt-4">Senior Software Engineer</h2>
         <MenuItem class="mt-12" />
       </div>
       <div>
         <SocialMediaList />
       </div>
     </header>
+
     <main class="w-1/2 py-12">
       <slot />
     </main>

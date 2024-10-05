@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col gap-10">
     <section id="about">
-      <AboutPage />
+      <about />
     </section>
     <section id="experience">
       <ExperiencePage />
@@ -12,3 +12,7 @@
   </div>
   
 </template>
+
+<script setup>
+import about from './about.vue';
+</script>
